@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+article{
+    background-color: rgb(247, 217, 178);
+}
+
+article p{
+    color: black;
+    background-color: rgb(171, 176, 176);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article a{
+    font-size: 1.5rem;
+    background-color: rgba(255, 0, 0, 0.099);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+table {
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.197);
+}
+
+thead th{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.197);
+    width: 240px;
+    border-bottom: 1px solid rgba(85, 84, 84, 0.197);
+    text-align: center;
+    padding: 10px;
+}
+
+th:nth-child(2){
+    border-right: 1px solid rgba(0, 0, 0, 0.197);
+    border-left: 1px solid rgba(0, 0, 0, 0.197);
+}
+
+tbody td{
+    
+    color: rgb(6, 6, 62);
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.197);
+}
+
+tbody td:nth-child(2){
+    border-right: 1px solid rgba(0, 0, 0, 0.197);
+    border-left: 1px solid rgba(0, 0, 0, 0.197);
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: rgb(247, 217, 178);
+    border-left: 1px solid rgba(0, 0, 0, 0.197);
+}
